@@ -66,7 +66,7 @@ class BirdsStock(models.Model):
     objects = DataFrameManager()
 
     class Meta:
-        ordering=["batch"]
+        ordering=["stock_date"]
         verbose_name_plural="Birds Stock"
 
     def stock_date_1(self):
@@ -421,7 +421,7 @@ class Vendors(models.Model):
     objects = DataFrameManager()
 
     class Meta:
-        ordering=["-vendor_date"]
+        ordering=["vendor_date"]
         verbose_name_plural="Vendors"
 
     def vendor_date_1(self):
