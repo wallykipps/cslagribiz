@@ -58,9 +58,9 @@ MIDDLEWARE = [
 
 CORS_ORIGIN_WHITELIST = [
 	#'http://127.0.0.1:3001',
-	# 'http://localhost:3000',
-    #'https://cslagribiz-nj46t.ondigitalocean.app/',
-    'https://cslagri.biz/',
+	'http://localhost:3000',
+    # #'https://cslagribiz-nj46t.ondigitalocean.app/',
+    # 'https://cslagri.biz/',
     
 
 ]
